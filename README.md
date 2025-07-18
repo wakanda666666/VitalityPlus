@@ -1,1 +1,0 @@
-# VitalityPlus
