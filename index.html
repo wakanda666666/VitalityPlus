@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vitality+</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+<link rel="manifest" href="manifest.json">
+</head>
+<body>
+<header>
+<h1>Vitality+</h1>
+<p>Boost Your Energy & Fertility – Install Now!</p>
+<button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+<button onclick="toggleLanguage()">FR/EN</button>
+</header>
+<main>
+<section id="plan">
+<h2>30-Day Plan</h2>
+<p>Preloaded meals, workouts, and supplements will appear here.</p>
+<button onclick="resetPlan()">Reset Plan</button>
+<button onclick="exportPDF()">Export Progress as PDF</button>
+</section>
+<section id="progress">
+<h2>Progress Tracker</h2>
+<p>Track your streak and progress here.</p>
+<div id="progress-bar" style="width: 100%; background: #ccc;">
+<div id="progress-fill" style="width: 30%; height: 20px; background: green;"></div>
+</div>
+<p id="streak">Streak: 0 days</p>
+</section>
+<section id="next">
+<h2>What's Next?</h2>
+<p>Congrats on finishing 30 days! Choose your next step: Repeat, Maintenance, or Advanced Tips.</p>
+</section>
+</main>
+</body>
+</html>
