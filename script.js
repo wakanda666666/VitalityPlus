@@ -1,0 +1,1 @@
+console.log('Vitality+ App Loaded');
